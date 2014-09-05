@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/layout_bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/list_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/layout_bottom_divider" >
+
+        <RelativeLayout
+            android:id="@+id/layout_nearby"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/click_background"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/main_icon_nearby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/main_icon_nearby" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/main_icon_nearby"
+                android:text="附近" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:background="@drawable/common_divider_line" />
+
+        <RelativeLayout
+            android:id="@+id/layout_route"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/click_background"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/main_icon_route"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/main_icon_route" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/main_icon_route"
+                android:text="线路" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:background="@drawable/common_divider_line" />
+
+        <RelativeLayout
+            android:id="@+id/layout_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/click_background"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/main_icon_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/main_icon_nav" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/main_icon_nav"
+                android:text="导航" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:background="@drawable/common_divider_line" />
+
+        <RelativeLayout
+            android:id="@+id/layout_shake"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/click_background"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/icon_satisfy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_satisfy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/icon_satisfy"
+                android:text="你懂的" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

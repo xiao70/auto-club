@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#fff</color>
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#FF6347</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#FF6347</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#FF6347</color>
+    <color name="Gray">#383838</color>
+    <color name="AlphaGray">#38383838</color>
+    <color name="Transparent">#00000000</color>
+    <color name="card_pressed">#38383838</color>
+    <color name="AlphaDodgerBlue">#381E90FF</color>
+
+</resources>
