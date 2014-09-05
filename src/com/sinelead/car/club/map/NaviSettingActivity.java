@@ -9,12 +9,18 @@
 *	<http://www.gnu.org/licenses/>.
 * 	如果您项目引用本文件代码或本项目代码，请保留作者、版权和许可通知，如果您程序为商业目的请在程序交互界面，关于信息中保留作者，版权等信息。
 *
-*	This software may be used and distributed according to the terms of
-*	the GNU General Public License (GPL v3), incorporated herein by reference.
-*	Drivers based on or derived from this code fall under the GPL and must
-*	retain the authorship, copyright and license notice.  This file is not
-*	a complete program and may only be used when the entire operating
-*	system is licensed under the GPL.
-*
-*	See the file COPYING in this distribution for more information.
+*	This program is free software; you can redistribute it and/or modify
+*	it under the terms of the GNU General Public License as published by
+*	the Free Software Foundation; either version 3 of the License, or
+*	(at your option) any later version.
+*      
+*	This program is distributed in the hope that it will be useful,
+*	but WITHOUT ANY WARRANTY; without even the implied warranty of
+*	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+*	GNU General Public License for more details.
+*      
+*	You should have received a copy of the GNU General Public License
+*	along with this program; if not, write to the Free Software
+*	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+*	MA 02110-1301, USA.
 */
